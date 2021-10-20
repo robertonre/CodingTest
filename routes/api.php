@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 // list all phone books
 Route::get('/phone-books',[App\Http\Controllers\PhoneBooksController::class, 'index']);
 // store new phone book
-Route::post('/store-phone-book',[App\Http\Controllers\PhoneBooksController::class, 'store']);
+Route::Post('/store-phone-book',[App\Http\Controllers\PhoneBooksController::class, 'store']);
 //show 
 Route::get('/show-phone-book/{id}',[App\Http\Controllers\PhoneBooksController::class, 'show']);
 // update

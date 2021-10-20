@@ -28,23 +28,23 @@
     <body class="container">
           <h1>Phone Book App Documentation</h1>
           <h5>Use Api-s for crud</h5>
-          <p> <mark> List all in DESC order ---> http://127.0.0.1:8000/api/phone-books </mark><p>
+          <p> <mark> List all  ---> http://127.0.0.1:8000/api/phone-books </mark><p>
            <a href="http://127.0.0.1:8000/api/phone-books" class=" btn-info" target="_blank">Try it out</a></p>
            
-           <p> <mark> View phone book ---> http://127.0.0.1:8000/api/show-phone-book/{id} </mark><p>
+           <p> <mark> View phone book ---> http://127.0.0.1:8000/api/show-phone-book/{id}  id = index of the records you want to view</mark><p>
            <a href="http://127.0.0.1:8000/api/show-phone-book/1" class=" btn-info" target="_blank">Try it out</a></p>
            
-           <p> <mark>Store new phone book (example)---> http://127.0.0.1:8000/api/store-phone-book </mark><p><p>
-           <a href="http://127.0.0.1:8000/api/store-phone-book?firstName=Test &lastName=test12345&type=Work&number=0698392885" class=" btn-info" target="_blank">Try it out</a></p><img class="img-thumbnail"  src="img/store.png" alt="store image">
+           <p> <mark>Store new phone book" http://127.0.0.1:8000/api/store-phone-book </mark><p> (example)---> http://127.0.0.1:8000/api/store-phone-book?firstName=Test&lastName=test12345&type=Work&number=0698392885<p></p>
+           <!-- <img class="img-thumbnail"  src="img/store.png" alt="store image"> -->
           
-           <p> <mark>Update phone book create one first (example)---> http://127.0.0.1:8000/api/update-phone-book/{id} </mark><p><p>
-           <a href="http://127.0.0.1:8000/api/update-phone-book/1?firstName=test&lastName=test4321&type=Work&number=6230855485" class=" btn-info" target="_blank">Try it out</a></p><img class="img-thumbnail"  src="img/update.png" alt="update image">
+           <p> <mark>Update phone book create one first ---> http://127.0.0.1:8000/api/update-phone-book/{id} id = index of the records you want to update</mark><p>(example) http://127.0.0.1:8000/api/update-phone-book/1?firstName=test&lastName=test4321&type=Work&number=6230855485</p>
+           <!-- <a href="http://127.0.0.1:8000/api/update-phone-book/1?firstName=test&lastName=test4321&type=Work&number=6230855485" class=" btn-info" target="_blank">Try it out</a></p><img class="img-thumbnail"  src="img/update.png" alt="update image"> -->
           
-           <p> <mark>Delete  phone book first u need to create one  (example)---> http://127.0.0.1:8000/api/delete-phone-book/{id} </mark><p><p>
-           <a href="http://127.0.0.1:8000/api/delete-phone-book/1" class=" btn-info" target="_blank">Try it out</a></p><img class="img-thumbnail"  src="img/delete.png" alt="delete image">
+           <p> <mark>Delete  phone book first u need to create one  (example)---> http://127.0.0.1:8000/api/delete-phone-book/{id}  id= index that you want to delete </mark><p>(example) http://127.0.0.1:8000/api/delete-phone-book/1</p>
+           <!-- <a href="http://127.0.0.1:8000/api/delete-phone-book/1" class=" btn-info" target="_blank">Try it out</a></p><img class="img-thumbnail"  src="img/delete.png" alt="delete image"> -->
            
-           <p> <mark>User Interface   (Create phone book)---> http://127.0.0.1:8000/create-phone-book/ </mark><p><p>
-           <a href="http://127.0.0.1:8000/create-phone-book" class="btn btn-info" target="_blank">Check it out</a></p>
+           <!-- <p> <mark>User Interface   (Create phone book)- http://127.0.0.1:8000/create-phone-book/ </mark><p><p> -->
+           <!-- <a href="http://127.0.0.1:8000/create-phone-book" class="btn btn-info" target="_blank">Check it out</a></p> -->
    
            
    
